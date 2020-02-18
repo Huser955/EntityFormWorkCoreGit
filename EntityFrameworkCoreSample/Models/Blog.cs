@@ -17,6 +17,8 @@ namespace EntityFrameworkCoreSample.Models
 
         //public DateTime CreateDate { get; set; }
 
+        public int Price { get; set; }
+
         public ICollection<Post> Posts { get; set; }
     }
 }
