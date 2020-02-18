@@ -12,6 +12,8 @@ namespace EntityFrameworkCoreSample.Models
 
         public string Content { get; set; }
 
+        public int isContent { get; set; }
+
         public int BlogId { get; set; }
     }
 }
