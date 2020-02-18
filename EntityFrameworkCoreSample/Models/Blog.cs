@@ -15,7 +15,7 @@ namespace EntityFrameworkCoreSample.Models
 
         public string Url { get; set; }
 
-        //public DateTime CreateDate { get; set; }
+        public DateTime CreateDate { get; set; }
 
         public ICollection<Post> Posts { get; set; }
     }
