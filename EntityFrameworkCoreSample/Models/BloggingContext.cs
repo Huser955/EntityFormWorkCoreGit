@@ -20,6 +20,7 @@ namespace EntityFrameworkCoreSample.Models
             modelBuilder.Entity<Post>().Property(p=>p.Title).HasMaxLength(160).IsRequired();
             modelBuilder.Entity<Blog>().Property<bool>("Deactivated");   
             modelBuilder.Entity<Blog>().Property<int>("LoyaltyPoints");
+            modelBuilder.Entity<Blog>().Property<int>("Num");
             modelBuilder.Entity<Blog>().Property<int>("BlogPostCount");
             base.OnModelCreating(modelBuilder);
         }
