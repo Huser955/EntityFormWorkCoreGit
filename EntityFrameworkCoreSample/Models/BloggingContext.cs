@@ -21,6 +21,8 @@ namespace EntityFrameworkCoreSample.Models
             modelBuilder.Entity<Blog>().Property<bool>("Deactivated");   
             modelBuilder.Entity<Blog>().Property<int>("LoyaltyPoints");
             modelBuilder.Entity<Blog>().Property<int>("Num");
+            modelBuilder.Entity<Blog>().Property<int>("NoNum");
+
             base.OnModelCreating(modelBuilder);
         }
 
