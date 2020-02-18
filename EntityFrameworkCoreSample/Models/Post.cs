@@ -11,6 +11,8 @@ namespace EntityFrameworkCoreSample.Models
         public string Title { get; set; }
 
         public string Content { get; set; }
+        
+        public string UserrName { get; set; }
 
         public int isContent { get; set; }
 

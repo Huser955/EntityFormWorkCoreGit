@@ -22,6 +22,7 @@ namespace EntityFrameworkCoreSample.Models
             modelBuilder.Entity<Blog>().Property<int>("LoyaltyPoints");
             modelBuilder.Entity<Blog>().Property<int>("Num");
             modelBuilder.Entity<Blog>().Property<int>("BlogPostCount");
+            modelBuilder.Entity<Blog>().Property<string>("UserName");
             base.OnModelCreating(modelBuilder);
         }
 
